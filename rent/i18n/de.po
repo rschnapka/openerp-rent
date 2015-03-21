@@ -7,14 +7,14 @@ msgstr ""
 "Project-Id-Version: OpenERP Server 7.0-20131111-002527\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-11-16 08:15+0000\n"
-"PO-Revision-Date: 2015-03-20 20:57+0100\n"
+"PO-Revision-Date: 2015-03-21 11:04+0100\n"
 "Last-Translator: Rudolf Schnapka <rs@techno-flex.de>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: de\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Poedit 1.7.5\n"
 
 #. module: rent
 #: field:rent.return,user_id:0
@@ -385,98 +385,98 @@ msgstr "Lagerbewegungen"
 #. module: rent
 #: field:rent.order,name:0 field:rent.return,name:0
 msgid "Order Reference"
-msgstr "源单据"
+msgstr "Auftragsbezug"
 
 #. module: rent
 #: view:rent.order:0
 msgid "Other Information"
-msgstr "其他信息"
+msgstr "Weitere Information"
 
 #. module: rent
 #: field:rent.order,pricelist_id:0
 msgid "Pricelist"
-msgstr "价格表"
+msgstr "Preisliste"
 
 #. module: rent
 #: model:ir.ui.menu,name:rent.menu_rent_config
 msgid "Configuration"
-msgstr "设置"
+msgstr "Konfiguration"
 
 #. module: rent
 #: code:addons/rent/rent.py:685
 #, python-format
 msgid "Configuration Error!"
-msgstr "配置错误"
+msgstr "Konfigurationsfehler"
 
 #. module: rent
 #: view:rent.order:0
 msgid "UoS"
-msgstr "销售单位"
+msgstr "VkME"
 
 #. module: rent
 #: selection:rent.order,invoice_frequency:0
 msgid "Daily"
-msgstr "每天"
+msgstr "Täglich"
 
 #. module: rent
 #: view:rent.order:0
 msgid "(update)"
-msgstr "(更新)"
+msgstr "(aktualisieren)"
 
 #. module: rent
 #: field:rent.order.line,product_rent_qty:0
 #: field:rent.return.line,product_rent_qty:0
 msgid "Rent Quantity"
-msgstr "未还数量"
+msgstr "Mietmenge"
 
 #. module: rent
 #: field:stock.warehouse,lot_rent_send_id:0
 msgid "Location Rent Send"
-msgstr "借出发运库位"
+msgstr "Miet-Lieferziel"
 
 #. module: rent
 #: field:stock.picking,rent_return_state:0
 #: field:stock.picking.in,rent_return_state:0
 #: field:stock.picking.out,rent_return_state:0
 msgid "Rent Return State"
-msgstr "返回状态"
+msgstr "Miet-Rückgabe-Status"
 
 #. module: rent
 #: field:rent.order.line,th_weight:0
 msgid "Weight"
-msgstr "优先级"
+msgstr "Gewicht"
 
 #. module: rent
 #: model:ir.ui.menu,name:rent.menu_rent_stock_product
 msgid "Rent Inventory by Partner"
-msgstr "客户借出库存"
+msgstr "Mietbestand nach Partner"
 
 #. module: rent
 #: field:rent.order,invoice_ids:0
 msgid "Invoices"
-msgstr "发票"
+msgstr "Rechnungen"
 
 #. module: rent
 #: view:rent.stock.product:0
 msgid "View Stock of Products"
-msgstr "产品库存"
+msgstr "Produktbestände ansehen"
 
 #. module: rent
 #: model:ir.actions.act_window,name:rent.action_rent_inventory
 #: model:ir.actions.act_window,name:rent.action_rent_stock_product
 #: model:ir.ui.menu,name:rent.menu_rent_inventory
 msgid "Rent Inventory"
-msgstr "借出库存"
+msgstr "Mietbestand"
 
 #. module: rent
 #: view:stock.picking.in:0 view:stock.picking.out:0
 msgid "Return Products"
-msgstr "退货产品"
+msgstr "Produkt zurückgeben"
 
 #. module: rent
 #: field:rent.order,currency_id:0
 msgid "Currency"
-msgstr "货币"
+msgstr "Währung"
 
 #. module: rent
 #: code:addons/rent/rent.py:667
@@ -485,198 +485,199 @@ msgid ""
 "You have to select a pricelist or a customer in the sales form !\n"
 "Please set one before choosing a product."
 msgstr ""
-"You have to select a pricelist or a customer in the sales form !\n"
-"Please set one before choosing a product."
+"Es fehlt entweder eine Preisliste oder ein Kunde im Verkaufsformular.\n"
+"Legen Sie bitte beide fest bevor Sie ein Produkt wählen."
 
 #. module: rent
 #: view:rent.order:0 selection:rent.order,state:0
 #: selection:rent.order.line,state:0 view:rent.return:0
 #: selection:rent.return,state:0 selection:rent.return.line,state:0
 msgid "Waiting Approval"
-msgstr "待批"
+msgstr "Erwarte Freigabe"
 
 #. module: rent
 #: view:rent.stock.product:0
 msgid "or"
-msgstr "或"
+msgstr "oder"
 
 #. module: rent
 #: field:rent.order,invoiced:0
 msgid "Invoiced"
-msgstr "已开票"
+msgstr "Berechnet"
 
 #. module: rent
 #: field:rent.order,invoice_frequency_time:0
 msgid "invoice_frequency_time"
-msgstr "发票生成时间"
+msgstr "invoice_frequency_time"
 
 #. module: rent
 #: field:rent.order,origin:0
 msgid "Source Document"
-msgstr "源单据"
+msgstr "Herkunftsdokument"
 
 #. module: rent
 #: code:addons/rent/wizard/rent_stock_product.py:55
 #, python-format
 msgid "Current Inventory"
-msgstr "当前库存"
+msgstr "Aktueller Bestand"
 
 #. module: rent
 #: view:rent.return:0
 msgid "Return Order "
-msgstr "借出还入单"
+msgstr "Rückgabeschein"
 
 #. module: rent
 #: code:addons/rent/rent.py:363 code:addons/rent/rent_return.py:183
 #, python-format
 msgid "No Lines!"
-msgstr "订单行为空"
+msgstr "Keine Positionen."
 
 #. module: rent
 #: view:rent.order:0 field:rent.order,note:0 field:rent.return,note:0
 msgid "Note"
-msgstr "备注"
+msgstr "Hinweis"
 
 #. module: rent
 #: view:rent.order:0 selection:rent.order,state:0
 #: selection:rent.order.line,state:0 view:rent.return:0
 #: selection:rent.return,state:0 selection:rent.return.line,state:0
 msgid "Draft"
-msgstr "草稿"
+msgstr "Entwurf"
 
 #. module: rent
 #: view:product.product:0
 msgid "Can be Rented"
-msgstr "可借出"
+msgstr "Vermietbar"
 
 #. module: rent
 #: field:rent.order,amount_untaxed:0
 msgid "Untaxed Amount"
-msgstr "不含税总计"
+msgstr "Nettobetrag"
 
 #. module: rent
 #: field:rent.order,state:0 field:rent.order.line,state:0
 #: field:rent.return,state:0 field:rent.return.line,state:0
 msgid "Status"
-msgstr "状态"
+msgstr "Status"
 
 #. module: rent
 #: model:ir.ui.menu,name:rent.menu_rent_partner
 msgid "Customers"
-msgstr "客户"
+msgstr "Kunden"
 
 #. module: rent
 #: selection:rent.stock.product,type:0
 msgid "Analyse Current Inventory"
-msgstr "分析当前库存"
+msgstr "Aktuellen Bestand analysieren"
 
 #. module: rent
 #: model:ir.module.category,name:rent.module_rent_category
 #: model:stock.location,name:rent.stock_location_rent
 msgid "Rent"
-msgstr "借出"
+msgstr "Miete"
 
 #. module: rent
 #: field:rent.order,paid:0
 msgid "Paid"
-msgstr "已付款"
+msgstr "Bezahlt"
 
 #. module: rent
 #: field:rent.order,message_is_follower:0
 #: field:rent.return,message_is_follower:0
 msgid "Is a Follower"
-msgstr "关注"
+msgstr "Ist ein Follower"
 
 #. module: rent
 #: code:addons/rent/rent.py:211
 #, python-format
 msgid "Pricelist Warning!"
-msgstr "价格表警告"
+msgstr "Hinweis zur Preisliste."
 
 #. module: rent
 #: field:rent.return.line,order_id:0
 msgid "Rent Return Reference"
-msgstr "归还单"
+msgstr "Mietrückgabe-Bezug"
 
 #. module: rent
 #: view:rent.order:0 field:rent.order,date_order:0 view:rent.return:0
 #: field:rent.return,date_order:0
 msgid "Date"
-msgstr "日期"
+msgstr "Datum"
 
 #. module: rent
 #: model:res.groups,name:rent.group_rent_user
 msgid "User"
-msgstr "用户"
+msgstr "Benutzer"
 
 #. module: rent
 #: view:rent.order:0 selection:rent.order,state:0
 #: selection:rent.order.line,state:0 view:rent.return:0
 #: selection:rent.return,state:0 selection:rent.return.line,state:0
 msgid "Done"
-msgstr "完成"
+msgstr "Erledigt"
 
 #. module: rent
 #: field:rent.order,message_summary:0 field:rent.return,message_summary:0
 msgid "Summary"
-msgstr "摘要"
+msgstr "Zusammenfassung"
 
 #. module: rent
 #: field:rent.return.line,rent_order_line_id:0
 msgid "Rent Line Reference"
-msgstr "借出单行"
+msgstr "Mietpositions-Bezug"
 
 #. module: rent
 #: view:rent.order:0
 msgid "View Invoice"
-msgstr "查看发票"
+msgstr "Rechnung ansehen"
 
 #. module: rent
 #: field:rent.return.line,rent_order_date_order:0
 msgid "Date Rent"
-msgstr "借出日期"
+msgstr "Mietdatum"
 
 #. module: rent
 #: view:rent.order:0 view:rent.return:0
 msgid "Draft "
-msgstr "草稿 "
+msgstr "Entwurf"
 
 #. module: rent
 #: code:addons/rent/rent.py:680
 #, python-format
 msgid "No valid pricelist line found ! :"
-msgstr "无效的价格表行"
+msgstr "Keine gültige Preisliste gefunden:"
 
 #. module: rent
 #: field:rent.order.line,product_uom_qty:0
 msgid "Quantity"
-msgstr "数量"
+msgstr "Menge"
 
 #. module: rent
 #: view:rent.stock.product:0
 msgid "View Products Inventory"
-msgstr "查看产品库存"
+msgstr "Produktbestände ansehen"
 
 #. module: rent
 #: model:ir.ui.menu,name:rent.menu_product_price_type_rent
 msgid "Price Types"
-msgstr "计价基础"
+msgstr "Preisarten"
 
 #. module: rent
 #: code:addons/rent/rent.py:85 code:addons/rent/rent_return.py:43
 #, python-format
 msgid "There is no default shop for the current user's company!"
-msgstr "当前公司未定义商店"
+msgstr ""
+"Kein Vorgabe-Shop für das Unternhmen des aktuellen Benutzers festgelegt."
 
 #. module: rent
 #: field:rent.order.line,sequence:0 field:rent.return.line,sequence:0
 msgid "Sequence"
-msgstr "序列"
+msgstr "Folge"
 
 #. module: rent
 #: field:stock.warehouse,lot_rent_return_id:0
 msgid "Location Rent Return"
-msgstr "借出还入库位"
+msgstr "Rückgabeort der Mietsache"
 
 #. module: rent
 #: code:addons/rent/rent.py:212
@@ -685,55 +686,55 @@ msgid ""
 "If you change the pricelist of this order (and eventually the currency), "
 "prices of existing order lines will not be updated."
 msgstr ""
-"If you change the pricelist of this order (and eventually the currency), "
-"prices of existing order lines will not be updated."
+"Wenn Sie die Preisliste dieses Auftrag ändern (oder auch die Währung), "
+"werden die Preise bestehender Positionen nicht angepasst."
 
 #. module: rent
 #: field:rent.order,fiscal_position:0
 msgid "Fiscal Position"
-msgstr "财务结构"
+msgstr "Steuerzuordnung"
 
 #. module: rent
 #: field:rent.order,plan_invoiced:0
 msgid "Plan Invoiced"
-msgstr "是否已生成归还单草稿"
+msgstr "Abgerechnetes Soll"
 
 #. module: rent
 #: model:ir.model,name:rent.model_account_invoice
 msgid "Invoice"
-msgstr "发票"
+msgstr "Rechnung"
 
 #. module: rent
 #: view:rent.stock.product:0
 msgid "Cancel"
-msgstr "取消"
+msgstr "Cancel"
 
 #. module: rent
 #: model:ir.model,name:rent.model_stock_return_picking
 msgid "Return Picking"
-msgstr "退回分拣"
+msgstr "Retoure-Kommission"
 
 #. module: rent
 #: code:addons/rent/rent.py:669
 #, python-format
 msgid "No Pricelist ! : "
-msgstr "未定义价格表"
+msgstr "Keine Preisliste:"
 
 #. module: rent
 #: sql_constraint:rent.order:0
 msgid "Order Reference must be unique per Company!"
-msgstr "名称必须唯一"
+msgstr "Auftragsbezug muss je Unternehmen eindeutig sein."
 
 #. module: rent
 #: view:rent.order:0 selection:rent.order,state:0
 #: selection:rent.return.line,state:0
 msgid "Delivered"
-msgstr "已发运"
+msgstr "Ausgeliefert"
 
 #. module: rent
 #: model:ir.model,name:rent.model_stock_picking_in
 msgid "Incoming Shipments"
-msgstr "入库"
+msgstr "Eingehende Lieferungen"
 
 #. module: rent
 #: code:addons/rent/rent.py:677
@@ -742,188 +743,188 @@ msgid ""
 "Cannot find a pricelist line matching this product and quantity.\n"
 "You have to change either the product, the quantity or the pricelist."
 msgstr ""
-"Cannot find a pricelist line matching this product and quantity.\n"
-"You have to change either the product, the quantity or the pricelist."
+"Kann keine Preislistenposition für Produkt und Menge finden.\n"
+"Sie müssen entweder das Produkt, die Menge oder die Preisliste ändern."
 
 #. module: rent
 #: model:product.price.type,name:rent.rent_price
 #: field:product.product,rent_price:0
 msgid "Rent Price"
-msgstr "借出价格"
+msgstr "Mietpreis"
 
 #. module: rent
 #: field:rent.stock.product,to_date:0
 msgid "To"
-msgstr "到"
+msgstr "Bis"
 
 #. module: rent
 #: field:rent.return,reference:0
 msgid "Ref"
-msgstr "引用"
+msgstr "Ref"
 
 #. module: rent
 #: field:rent.order.line,price_unit:0
 msgid "Unit Price"
-msgstr "单价"
+msgstr "Preis je Einheit"
 
 #. module: rent
 #: field:rent.stock.product,include_childs:0
 msgid "Include Childs"
-msgstr "含子客户"
+msgstr "Untergeordnete einschließen"
 
 #. module: rent
 #: model:product.pricelist.type,name:rent.pricelist_type_rent
 #: field:res.partner,property_product_pricelist_rent:0
 msgid "Rent Pricelist"
-msgstr "借出价格表"
+msgstr "Mietpreisliste"
 
 #. module: rent
 #: model:ir.model,name:rent.model_product_product
 #: field:rent.order.line,product_id:0 field:rent.return.line,product_id:0
 msgid "Product"
-msgstr "产品"
+msgstr "Produkt"
 
 #. module: rent
 #: field:rent.order.line,name:0 field:rent.return.line,name:0
 msgid "Description"
-msgstr "描述"
+msgstr "Beschreibung"
 
 #. module: rent
 #: model:product.pricelist,name:rent.list0
 msgid "Default Rent Pricelist"
-msgstr "默认借出价格表"
+msgstr "Vorgabe-Mietpreisliste"
 
 #. module: rent
 #: field:stock.warehouse,lot_rent_id:0
 msgid "Location Rent"
-msgstr "借出库位"
+msgstr "Mietstandort"
 
 #. module: rent
 #: field:rent.order,date_return:0
 msgid "Return Date"
-msgstr "还入日期"
+msgstr "Retouredatum"
 
 #. module: rent
 #: view:rent.order:0 view:rent.return:0
 msgid "Order Number"
-msgstr "订单号码"
+msgstr "Auftragsnummer"
 
 #. module: rent
 #: field:rent.order,partner_id:0 field:rent.order.line,order_partner_id:0
 #: field:rent.return,partner_id:0 field:rent.stock.product,partner_id:0
 msgid "Customer"
-msgstr "客户"
+msgstr "Kunde"
 
 #. module: rent
 #: model:ir.model,name:rent.model_rent_return_line
 msgid "Rent Return Line"
-msgstr "借出还入单行"
+msgstr "Mietretoureposition"
 
 #. module: rent
 #: field:rent.order,picking_ids:0 field:rent.return,picking_ids:0
 msgid "Related Picking"
-msgstr "相关分拣单"
+msgstr "Zugehörige Kommissionierung"
 
 #. module: rent
 #: model:ir.ui.menu,name:rent.menu_rent_product
 msgid "Rent Product"
-msgstr "借出产品"
+msgstr "Mietprodukt"
 
 #. module: rent
 #: field:rent.order.line,product_uos:0 field:rent.return.line,product_uos:0
 msgid "Product UoS"
-msgstr "产品销售单位"
+msgstr "Produkt-VkME"
 
 #. module: rent
 #: code:addons/rent/stock.py:115 code:addons/rent/stock.py:118
 #, python-format
 msgid "Warning!"
-msgstr "警告"
+msgstr "Warnung!"
 
 #. module: rent
 #: view:rent.order:0
 msgid "Total Tax Included"
-msgstr "含税总计"
+msgstr "Steuergesamtsumme"
 
 #. module: rent
 #: field:rent.order,project_id:0
 msgid "Contract / Analytic"
-msgstr "辅助核算"
+msgstr "Vertrag / Kostenstelle"
 
 #. module: rent
 #: view:rent.order:0 view:rent.return:0
 msgid "Approve"
-msgstr "批准"
+msgstr "Freigeben"
 
 #. module: rent
 #: help:rent.order,message_ids:0 help:rent.return,message_ids:0
 msgid "Messages and communication history"
-msgstr "Messages and communication history"
+msgstr "Mitteilungs- und Kommunikationsverlauf"
 
 #. module: rent
 #: view:rent.order:0 field:rent.order,returned:0 selection:rent.order,state:0
 #: selection:rent.order.line,state:0 selection:rent.return.line,state:0
 msgid "Returned"
-msgstr "已归还"
+msgstr "Zurück erhalten"
 
 #. module: rent
 #: view:rent.return:0
 msgid "Note..."
-msgstr "备注"
+msgstr "Hinweis..."
 
 #. module: rent
 #: field:rent.order,amount_total:0 view:rent.return:0
 msgid "Total"
-msgstr "总计"
+msgstr "Gesamt"
 
 #. module: rent
 #: model:ir.actions.act_window,name:rent.action_pricelist_version_rent
 #: model:ir.ui.menu,name:rent.menu_pricelist_version_rent
 msgid "Pricelist Versions"
-msgstr "价格表版本"
+msgstr "Preislistenversionen"
 
 #. module: rent
 #: field:rent.order,line_id:0
 msgid "Entry Lines"
-msgstr "行"
+msgstr "Eingabepositionen"
 
 #. module: rent
 #: code:addons/rent/rent.py:85 code:addons/rent/rent.py:258
 #: code:addons/rent/rent.py:269 code:addons/rent/rent_return.py:43
 #, python-format
 msgid "Error!"
-msgstr "错误"
+msgstr "Error!"
 
 #. module: rent
 #: selection:rent.order,invoice_frequency:0
 msgid "One"
-msgstr "一次性"
+msgstr "Einer"
 
 #. module: rent
 #: view:rent.return:0
 msgid "Sales Order Lines"
-msgstr "订单行"
+msgstr "Auftragspositionen"
 
 #. module: rent
 #: model:res.groups,name:rent.group_rent_manager
 msgid "Manager"
-msgstr "经理"
+msgstr "Vorgesetzter"
 
 #. module: rent
 #: field:rent.order,client_order_ref:0
 msgid "Customer Reference"
-msgstr "客户引用"
+msgstr "Kundenreferenz"
 
 #. module: rent
 #: field:rent.return.line,product_uom_qty:0
 msgid "Return Quantity"
-msgstr "归还数量"
+msgstr "Retouremenge"
 
 #. module: rent
 #: view:rent.order:0 field:rent.order,year:0 view:rent.return:0
 #: field:rent.return,year:0
 msgid "Year"
-msgstr "每年"
+msgstr "Jahr"
 
 #. module: rent
 #: code:addons/rent/rent.py:590
@@ -932,16 +933,16 @@ msgid ""
 "Before choosing a product,\n"
 " select a customer in the sales form."
 msgstr ""
-"Before choosing a product,\n"
-" select a customer in the sales form."
+"Vor Produktauswahl,\n"
+" einen Kunden im Verkaufsformular wählen."
 
 #. module: rent
 #: field:stock.picking,rent_state:0 field:stock.picking.in,rent_state:0
 #: field:stock.picking.out,rent_state:0
 msgid "Rent State"
-msgstr "归还日期"
+msgstr "Mietstatus"
 
 #. module: rent
 #: view:rent.return:0 field:rent.return,order_line:0
 msgid "Return Lines"
-msgstr "借出还入单行"
+msgstr "Retourepositionen"
